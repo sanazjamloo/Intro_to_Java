@@ -1,5 +1,6 @@
 package chapter_01;
-/* Write a program that displays the area and perimeter of a rectangle with the width of 4.5 and height of 7.9 using the following formula: 
+/* Write a program that displays the area and perimeter of a rectangle with the width of 4.5 and height of 7.9 using the
+ *  following formula: 
  * 
  * area =  width x height
  * perimeter = 2 x (height + width)
