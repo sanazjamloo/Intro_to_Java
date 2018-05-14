@@ -55,7 +55,7 @@ public class Calculator {
 		 continue; 
 	 	}			
 	 } catch (final InputMismatchException e) {
-	System.out.println("You have entered an invalid choice.  Try again.");
+	System.out.println("You have entered an invalid choice. Try again.");
 	input.nextLine();	
 	 continue;
 	 }
@@ -111,8 +111,8 @@ public class Calculator {
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in); //create Scanner one time
 		 int z = getUserChoice(input);
-		 double[] values=getTwoDoubles(input);
-		 calculation( z, values[0], values[1]);
+		 double[] values = getTwoDoubles(input);
+		 calculation(z, values[0], values[1]);
 		 input.close(); //close Scanner one time
 
 		
