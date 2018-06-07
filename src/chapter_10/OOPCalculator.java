@@ -89,33 +89,14 @@ public class OOPCalculator {
 			return floatNumbers;
 		}//end askTwoValues
 		
-		public void sum () {
-
-	
-	
-		}
-
-		
-		
-		
-		
-		
-		
-		
-		
-		
 		public static void main(String[] args) {
 			Scanner input = new Scanner(System.in); //create Scanner object one time
 			int calcOption = 0;
 			OOPCalculator myCalculate = new OOPCalculator();
 			myCalculate.askCalcChoice(input);
 			myCalculate.askTwoValues(calcOption, input);
-			myCalculate.sum();
-			input.close(); //close Scanner one time
-
+			input.close();  //close Scanner one time
 			
-		}// end main
-	
-	
+		} // end main
 
-}// end OOPCalculator
+} // end OOPCalculator
