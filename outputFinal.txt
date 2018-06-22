@@ -1,0 +1,6 @@
+ Letter grade for 4 students given in 'inputFinal.txt' file is:
+  
+Ariana B. Smith:	A
+Indhu:	A
+Sanaz:	A
+Thui Bhu:	A

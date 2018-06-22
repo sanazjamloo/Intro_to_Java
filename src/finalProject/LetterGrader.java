@@ -85,7 +85,7 @@ import java.io.PrintWriter;
 	   } // end readScore
 	 
 	 
-	   //calculating the grades and converting to letter grades
+	   //calculating the grades and converting them to letter grades
 	   public void calcLetterGrade() {
 	       for (int i = 0; i < studentName.size(); i++) {
 	           double totalScore = quiz1.get(i) * 0.10 + quiz2.get(i) * 0.10 +
